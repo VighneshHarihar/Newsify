@@ -72,7 +72,6 @@ python-telegram-handler==2.2
 pytrends==4.7.2
 PyTweening==1.0.3
 pytz==2019.3
-pywin32==227
 pywin32-ctypes==0.2.0
 PyYAML==5.1
 rake-nltk==1.0.4
