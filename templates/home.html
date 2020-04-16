@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Newsify</title>
+        <link href="../static/styles.css" rel="stylesheet" type="text/css"/>
+        <script>
+                $(document).ready(function() {
+                    $('.chips-placeholder').materialChip({
+                    placeholder: 'Enter a tag',
+                    secondaryPlaceholder: '+Tag',
+                });
+}               )
+            </script>
+    </head>
+    <body>
+        <h1>Newsify</h1>
+        <div class="try"><form method="POST" action="/result" >
+            <input type="text" name="newsTitle" placeholder=" Search by news title" ><br><br>
+
+
+            <input type="text" id="keywords" name="keywords" placeholder=" Enter tags" ><br><br>
+
+
+            <input type="submit" value="Look Up" >
+
+
+        </form></div>
+
+
+
+
+    </body>
+</html>

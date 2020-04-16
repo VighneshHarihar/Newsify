@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Result</title>
+        <link href="../static/result.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <h1 align="center">The news is
+        {% if truth==True %}
+            <strong style="color: forestgreen">{{ truth }}</strong>
+        {% else %}
+            <strong style="color: red">{{ truth }}</strong>
+        {% endif %}
+    </h1>
+
+        {% for i in links %}
+            <div class="links"><a href="{{ links[i] }}"><h5>{{ i }}</h5><br/></a></div>
+        {% endfor %}
+
+    </body>
+</html>
